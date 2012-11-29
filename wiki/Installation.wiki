@@ -12,11 +12,13 @@ Download the DMG file, open it, and drag the app onto your Desktop or Applicatio
 
 = Source =
 
-To run ComicTagger from the python source, you will need to install some pre-requisites:
+The source package is much smaller, and if you only want to run ComicTagger as a command-line app, you may want to install this way.  
+
+To run ComicTagger from the python source, you may need to install some pre-requisites:
 
   * Python 2.6 or 2.7
-  * PyQt matching the Python version
-  * PIL, the Python Imaging Library
+  * PyQt matching the Python version -- _(Only needed for GUI)_
+  * PIL, the Python Imaging Library -- _(Only need for automated matching)_
 
 See below for some platform-specific details
 
@@ -24,9 +26,9 @@ Once those are in place, just download and extract the source zip file.  Run the
 
 == Mac OS X ==
 
-Mac has Python installed by default.
-
 Getting PyQt and PIL installed is probably easiest (although very slow) via brew - http://mxcl.github.com/homebrew/
+
+Once you have brew installed:
 {{{
 brew install python pyqt pil
 }}}
@@ -36,9 +38,9 @@ More TBD.
 
 == Windows ==
 
-Python - http://www.python.org/getit/releases/2.7.3/
-PyQt - http://www.riverbankcomputing.com/software/pyqt/download
-PIL - http://www.pythonware.com/products/pil/
+  * Python - http://www.python.org/getit/releases/2.7.3/
+  * PyQt - http://www.riverbankcomputing.com/software/pyqt/download
+  * PIL - http://www.pythonware.com/products/pil/
 
 == Linux ==
 On the Ubuntu 12.10 all requirements should be available already.  On other systems, use the package manager such as apt-get or yum to install whatever is missing.
