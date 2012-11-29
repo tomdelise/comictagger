@@ -1,5 +1,6 @@
   * [MissionStatement Mission Statement]
-  * [RoadMap Feature Roadmap]
+  * [Installation]  
   * [UserGuide User Guide]  
     * [UserGuideGUI GUI User Guide]    
     * [UserGuideCLI CLI User Guide]
+  * [RoadMap Feature Roadmap]
