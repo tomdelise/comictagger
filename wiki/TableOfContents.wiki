@@ -1,8 +1,0 @@
-#sidebar ""
-
-  * [MissionStatement Mission Statement]
-  * [Installation]  
-  * [UserGuide User Guide]  
-    * [UserGuide#GUI_User_Guide GUI User Guide]    
-    * [UserGuide#CLI_User_Guide CLI User Guide]
-  * [RoadMap Feature Roadmap]
