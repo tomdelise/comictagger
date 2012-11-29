@@ -1,6 +1,6 @@
   * [MissionStatement Mission Statement]
   * [Installation]  
   * [UserGuide User Guide]  
-    * [UserGuideGUI GUI User Guide]    
-    * [UserGuideCLI CLI User Guide]
+    * [UserGuide#GUI GUI User Guide]    
+    * [UserGuide#CLI CLI User Guide]
   * [RoadMap Feature Roadmap]
