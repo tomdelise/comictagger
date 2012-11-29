@@ -1,2 +1,2 @@
-  * [MissionStatement]
-  * [RoadMap]
+  * [Mission Statement]
+  * [Road Map]
