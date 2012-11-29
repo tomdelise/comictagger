@@ -1,0 +1,37 @@
+#summary ComicTagger Mission Statement
+
+
+
+#sidebar TableOfContents
+<wiki:toc max_depth="3" />
+
+
+https://lh6.googleusercontent.com/-2XGWn04TRFw/UKhsOfzMZmI/AAAAAAAAABE/BsU2dWchQq8/s1077/Screen%2520shot%25202012-11-17%2520at%25205.32.45%2520PM.png
+
+=Mission Statement=
+==The Problem==
+
+There is no accepted standard for tagging metadata in comic archives such as CBR and CBZ, despite the relative ease with which such archives can be generated.  For the most part, the tagging is either via ungainly long filenames, or through proprietary databases used by various reader apps, in a similar fashion as iTunes for music.  In fact, the situation is quite similar to how it was for MP3 files before the widespread use of the ID3 tag.  The ID3 tag made it possible to provide context-free metadata for each MP3 file, in a platform- and application-independent manner.
+
+A few reader apps, such as ComicRack (available on Windows and Android only) and ComicBookLover (available on Mac OSX and iOS only) have made public their own schemes for internally tagging the comic archive with metadata, but since these efforts are compartmentalized, no other readers (as far as I know)  have seen fit to support these schemes.
+
+==A Solution, perhaps==
+
+The intent of ComicTagger is provide a non-reader app that is both platform-independent and reader application agnostic.  Perhaps, by providing a independent mechanism for tagging archives, more reader apps will be motivated to support at least the reading of these tags.
+
+== The Details ==
+
+ComicTagger is a cross-platorm GUI app for writing metadata to comic archives, written in Python and PyQt.  It supports: 
+ * communicating with an online database (ComicVine) for acquiring metadata
+ * image processing to automatically match a given archive with the correct issue data
+ * reading and writing multiple tagging schemes ( both ComicBookLover and ComicRack).  
+ * rar, zip, and folder archives (external tools needed for writing rar)
+ * command line interface
+ 
+Initially, only single file tagging will be supported, but future versions will support multiple files, and automated batch tagging.
+
+
+Once the code is stable and functional for an initial release, packages for Windows and Mac OS X will be posted.
+
+
+https://lh3.googleusercontent.com/-NGDEikrnp6E/UKhsOJzKGXI/AAAAAAAAAA8/sMGFnNIpXHM/s953/Screen%2520shot%25202012-11-17%2520at%25205.33.27%2520PM.png
