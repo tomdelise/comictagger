@@ -1,21 +1,25 @@
+== Binary Packages==
 
-== Windows ==
-=== Binary Package===
+For Windows and Mac, application packages are available. This is the easiest way to run ComicTagger.
 
-Just download the installer .exe and run it.  
+=== Windows ===
 
-=== Source ===
+Download the installer .exe and run it.  
 
-To run ComicTagger from the python source on Windows, you will need to install:
+=== Mac OS X ===
+
+Download the DMG file, open it, and drag the app onto your Desktop or Applications folder.
+
+== Source ==
+
+To run ComicTagger from the python source, you will need to install some pre-requisites installed:
+
   * Python 2.7
   * PyQt
   * PIL
 
+
 == Mac OS X ==
-=== Binary ===
-=== Source ===
-
+== Windows ==
 == Linux ==
-=== Source ===
-
-Download and unzip the source package.  On the Ubuntu 12.10 it all requirements should be available already.
+On the Ubuntu 12.10 all requirements should be available already.  
