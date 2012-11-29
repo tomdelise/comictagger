@@ -1,8 +1,6 @@
 #summary ComicTagger Mission Statement
 
 
-
-#sidebar TableOfContents
 <wiki:toc max_depth="3" />
 
 
