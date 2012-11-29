@@ -1,8 +1,15 @@
 
-
 == Windows ==
 === Binary Package===
+
+Just download the installer .exe and run it.  
+
 === Source ===
+
+To run ComicTagger from the python source on Windows, you will need to install:
+  * Python 2.7
+  * PyQt
+  * PIL
 
 == Mac OS X ==
 === Binary ===
@@ -10,3 +17,5 @@
 
 == Linux ==
 === Source ===
+
+Download and unzip the source package.  On the Ubuntu 12.10 it all requirements should be available already.
