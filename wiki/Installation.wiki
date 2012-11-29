@@ -26,7 +26,11 @@ Once those are in place, just download and extract the source zip file.  Run the
 
 Mac has Python installed by default.
 
-Getting PyQt and PIL installed is probably easiest via brew - http://mxcl.github.com/homebrew/
+Getting PyQt and PIL installed is probably easiest (although very slow) via brew - http://mxcl.github.com/homebrew/
+{{{
+brew install python pyqt pil
+}}}
+
 
 More TBD.
 
