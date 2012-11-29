@@ -1,11 +1,5 @@
 #summary ComicTagger Mission Statement
 
-
-<wiki:toc max_depth="3" />
-
-
-https://lh6.googleusercontent.com/-2XGWn04TRFw/UKhsOfzMZmI/AAAAAAAAABE/BsU2dWchQq8/s1077/Screen%2520shot%25202012-11-17%2520at%25205.32.45%2520PM.png
-
 =Mission Statement=
 ==The Problem==
 
@@ -17,19 +11,5 @@ A few reader apps, such as ComicRack (available on Windows and Android only) and
 
 The intent of ComicTagger is provide a non-reader app that is both platform-independent and reader application agnostic.  Perhaps, by providing a independent mechanism for tagging archives, more reader apps will be motivated to support at least the reading of these tags.
 
-== The Details ==
-
-ComicTagger is a cross-platorm GUI app for writing metadata to comic archives, written in Python and PyQt.  It supports: 
- * communicating with an online database (ComicVine) for acquiring metadata
- * image processing to automatically match a given archive with the correct issue data
- * reading and writing multiple tagging schemes ( both ComicBookLover and ComicRack).  
- * rar, zip, and folder archives (external tools needed for writing rar)
- * command line interface
- 
-Initially, only single file tagging will be supported, but future versions will support multiple files, and automated batch tagging.
 
 
-Once the code is stable and functional for an initial release, packages for Windows and Mac OS X will be posted.
-
-
-https://lh3.googleusercontent.com/-NGDEikrnp6E/UKhsOJzKGXI/AAAAAAAAAA8/sMGFnNIpXHM/s953/Screen%2520shot%25202012-11-17%2520at%25205.33.27%2520PM.png
