@@ -26,6 +26,9 @@ Obstacles to this process are alternate covers, duplicate covers ( such as multi
 
 The settings allow the user to mitigate some of these problems by blacklisting certain publishers, and narrowing the name matching.
 
+===Caching===
+
+
 ===Rename===
 
 TBD
