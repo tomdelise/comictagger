@@ -11,6 +11,7 @@ Series Selection Window on Windows
 https://lh3.googleusercontent.com/-Qc-BYUiaV_c/ULhg59S7yLI/AAAAAAAAACU/1GJU_zQWcEU/s817/win3.png
 
 Page Browser on Windows
+
 https://lh3.googleusercontent.com/-tQC1jWhI72Y/ULhg6YDVcVI/AAAAAAAAACc/YiKRp9xQkpw/s786/win4.png
 
 Series Selection Window on Ubuntu
