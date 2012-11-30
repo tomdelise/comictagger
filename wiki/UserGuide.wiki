@@ -104,9 +104,9 @@ If no options are given, comictagger.py will run in windowed mode
                              Some names that can be used:
                                  series, issue, issueCount, year, publisher, title
   -r, --rename               Rename the file based on specified tag style.
-  -a, --abort                Abort save operation when online match is of low confidence TBD!  
+      --noabort              Don't abort save operation when online match is of low confidence  
   -v, --verbose              Be noisy when doing what it does                            
-  -h, --help                 Display this message                            
+  -h, --help                 Display this message                        
 </pre>
 
 Assuming a bash shell, here are some example usages:
