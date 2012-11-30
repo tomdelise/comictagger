@@ -5,6 +5,7 @@
   * [ReleaseNotes Release Notes]
   * [Installation]  
   * [UserGuide User Guide]  
+    * [UserGuide#General_Features General Features]    
     * [UserGuide#GUI_User_Guide GUI User Guide]    
     * [UserGuide#CLI_User_Guide CLI User Guide]
   * [Limitations]  
