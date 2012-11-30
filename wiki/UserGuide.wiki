@@ -28,7 +28,11 @@ The settings allow the user to mitigate some of these problems by blacklisting c
 
 ===Caching===
 
+ComicTagger caches online search results and images from ComicVine in a temporary database to improve speed when doing similar searches repeatedly. 
+
 === RAR Tools ===
+
+In order to read and write RAR and CBR archives, you will need to download tools from WinRAR ( www.win-rar.com/download.html).  See the setting dialog of the GUI.
 
 ===Rename===
 
