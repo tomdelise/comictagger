@@ -47,5 +47,5 @@ On the Ubuntu 12.10 all requirements should be available already.  On other syst
 
 i.e.
 {{{
-sudo apt-get install python-pil
+sudo apt-get install python-qt4 python-imaging
 }}}
