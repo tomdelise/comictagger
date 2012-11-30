@@ -28,6 +28,7 @@ The settings allow the user to mitigate some of these problems by blacklisting c
 
 ===Caching===
 
+=== RAR Tools ===
 
 ===Rename===
 
