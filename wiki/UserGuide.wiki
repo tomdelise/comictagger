@@ -145,3 +145,8 @@ As above, but in "dry run" mode, where it just displays what would be saved
 <code language="sh">
 ./comictagger.py -n -s -t cbl -m "publisher=Quality Comics"   Plastic\ Man*.*
 </code>
+
+Rename a file based on ComicRack tags
+<code language="sh">
+./comictagger.py -r -t cr PlasticManOne.cbz
+</code>
