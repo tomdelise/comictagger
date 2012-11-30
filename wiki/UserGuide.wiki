@@ -57,20 +57,20 @@ On the command-line just invoke the main executable with options.
 
 On Windows the executable path should be something like this:
 
-{{{
+<code language="bat">
 C:\Program Files\ComicTagger\comictagger.exe
-}}}
+</code>
 
 On Mac something like this:
-{{{
+<code language="sh">
 /Applications/ComicTagger.app/Contents/MacOS/ComicTagger
-}}}
+</code>
 
 If running from python source, just run "comictagger.py"
 
 Here is the help message:
-<code language="C">
-Usage: comictagger.py [OPTION]... [FILE]
+<pre>
+Usage: comictagger.py [OPTION]... [FILE LIST]
 
 A utility for reading and writing metadata to comic archives.
 
@@ -103,4 +103,41 @@ If no options are given, comictagger.py will run in windowed mode
   -a, --abort                Abort save operation when online match is of low confidence TBD!  
   -v, --verbose              Be noisy when doing what it does                            
   -h, --help                 Display this message                            
+</pre>
+
+Assuming a bash shell, here are some example usages:
+
+Print out the tags for a single file
+<code language="sh">
+./comictagger.py -p Plastic_Man_001_.zip
+</code>
+
+Print out the ComicRack tags for all CBZ files in the folder
+<code language="sh">
+./comictagger.py -p -t cr *.cbz
+</code>
+
+Delete the ComicBookLover tags for all CBR files in the folder
+<code language="sh">
+./comictagger.py -d -t cbl *.cbr
+</code>
+
+Set the ComicRack tags from online for a single file, using the filename to search
+<code language="sh">
+./comictagger.py -s -t cr -f  -o Plastic_Man_001_.cbr
+</code>
+
+Set the ComicRack tags from online for a single file, using the specified tags to search
+<code language="sh">
+./comictagger.py -s -t cr -m "series=Plastic Man,issue=1"  -o PlasMan001.cbr
+</code>
+
+Set the ComicBookLover Publisher tag for a list of files
+<code language="sh">
+./comictagger.py -s -t cbl -m "publisher=Quality Comics"   Plastic\ Man*.*
+</code>
+
+As above, but in "dry run" mode, where it just displays what would be saved
+<code language="sh">
+./comictagger.py -n -s -t cbl -m "publisher=Quality Comics"   Plastic\ Man*.*
 </code>
