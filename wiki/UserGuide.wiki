@@ -51,7 +51,25 @@ Double-clicking on the cover image, or selecting the Page Browser menu option/to
 
 = CLI User Guide =
 
+ComicTagger supports a powerful command-line interface that can be used for batch processing of archives.
+
+On the command-line just invoke the main executable with options.   
+
+On Windows the executable path should be something like this:
+
 {{{
+C:\Program Files\ComicTagger\comictagger.exe
+}}}
+
+On Mac something like this:
+{{{
+/Applications/ComicTagger.app/Contents/MacOS/ComicTagger
+}}}
+
+If running from python source, just run "comictagger.py"
+
+Here is the help message:
+<code language="C">
 Usage: comictagger.py [OPTION]... [FILE]
 
 A utility for reading and writing metadata to comic archives.
@@ -85,4 +103,4 @@ If no options are given, comictagger.py will run in windowed mode
   -a, --abort                Abort save operation when online match is of low confidence TBD!  
   -v, --verbose              Be noisy when doing what it does                            
   -h, --help                 Display this message                            
-}}}
+</code>
