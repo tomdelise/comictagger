@@ -32,11 +32,13 @@ ComicTagger caches online search results and images from ComicVine in a temporar
 
 === RAR Tools ===
 
-In order to read and write RAR and CBR archives, you will need to download tools from WinRAR ( http://www.win-rar.com/download.html).  See the setting dialog of the GUI.
+In order to read and write RAR and CBR archives, you will need to download tools from [http://www.win-rar.com/download.html WinRAR]. You may need to specify the tool locations via the settings/preferences dialog.
+
+ComicTagger uses the command-line tools "rar" and "unrar", which, despite the warnings of the WinRAR GUI, don't seem to expire.  So, no need to pay!
 
 ===Rename===
 
-TBD
+Currently, renaming is only on the command-line, and is very limited.  This feature will be expanded and enhanced, eventually.
 
 = GUI User Guide =
 
