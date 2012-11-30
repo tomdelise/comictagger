@@ -1,10 +1,24 @@
+=General Features=
 
+===Auto-Select===
+
+===Rename===
+
+TBD
 
 = GUI User Guide =
 
+The GUI is for the most part pretty intuitive.  You open a file via the menu, or by drag-and-drop, edit the tag fields, and save.  But a some portions deserve a few words.
+
+=== Tag Style Drop-down ===
+
+The "Tag Style" drop-down selection in the upper corner selects how the tags will be saved.  When the style is changed, certain entry fields will change color, and go inactive if those fields won't be saved for the selected style.  For example, the ComicRack tag style doesn't support a field, for "Country", so that entry control will be marked red, and made in active.
+
+This drop-down also affects which tag block will be read in when the user selects the menu choice to "Reload Select Tag Block"
+
+===Page Browser===
 
 
 = CLI User Guide =
 
 Add your content here.
-
