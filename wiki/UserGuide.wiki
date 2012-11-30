@@ -73,7 +73,7 @@ On Mac something like this:
 If running from python source, just run "comictagger.py"
 
 Here is the help message:
-<pre>
+<code language="txt">
 Usage: comictagger.py [OPTION]... [FILE LIST]
 
 A utility for reading and writing metadata to comic archives.
@@ -107,7 +107,7 @@ If no options are given, comictagger.py will run in windowed mode
       --noabort              Don't abort save operation when online match is of low confidence  
   -v, --verbose              Be noisy when doing what it does                            
   -h, --help                 Display this message                        
-</pre>
+</code>
 
 Assuming a bash shell, here are some example usages:
 
