@@ -51,4 +51,38 @@ Double-clicking on the cover image, or selecting the Page Browser menu option/to
 
 = CLI User Guide =
 
-Add your content here.
+{{{
+Usage: comictagger.py [OPTION]... [FILE]
+
+A utility for reading and writing metadata to comic archives.
+
+If no options are given, comictagger.py will run in windowed mode
+
+  -p, --print                Print out tag info from file.  Specify type
+                             (via -t) to get only info of that tag type
+      --raw                  With -p, will print out the raw tag block(s)
+                             from the file
+  -d, --delete               Deletes the tag block of specified type (via -t)
+  -s, --save                 Save out tags as specified type (via -t)
+                             Must specify also at least -o, -p, or -m
+  -n, --dryrun               Don't actually modify file (only relevent for -d, -s, or -r)
+  -t, --type=TYPE            Specify TYPE as either "CR" or "CBL", (as either 
+                             ComicRack or ComicBookLover style tags, respectivly)
+  -f, --parsefilename        Parse the filename to get some info, specifically
+                             series name, issue number, volume, and publication 
+                             year
+  -o, --online               Search online and attempt to identify file using 
+                             existing metadata and images in archive. May be used
+                             in conjuntion with -f and -m
+  -m, --metadata=LIST        Explicity define, as a list, some tags to be used                           
+                                e.g. "series=Plastic Man , publisher=Quality Comics"
+                                     "series=Kickers^, Inc., issue=1, year=1986"
+                             Name-Value pairs are comma separated.  Use a "^" to 
+                             escape an "=" or a ",", as shown in the example above
+                             Some names that can be used:
+                                 series, issue, issueCount, year, publisher, title
+  -r, --rename               Rename the file based on specified tag style.
+  -a, --abort                Abort save operation when online match is of low confidence TBD!  
+  -v, --verbose              Be noisy when doing what it does                            
+  -h, --help                 Display this message                            
+}}}
