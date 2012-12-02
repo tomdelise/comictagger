@@ -143,9 +143,9 @@ Set the ComicRack tags from online for a single file, using the filename to sear
 ./comictagger.py -s -t cr -f  -o Plastic_Man_001_.cbr
 </code>
 
-Set the ComicRack tags from online for a single file, using the specified tags to search
+Set the ComicRack tags from online for a single file, using the specified tags to search, and be verbose about what it's doing
 <code language="sh">
-./comictagger.py -s -t cr -m "series=Plastic Man,issue=1"  -o PlasMan001.cbr
+./comictagger.py -s -t cr -m "series=Plastic Man,issue=1"  -o -v PlasMan001.cbr
 </code>
 
 Set the ComicBookLover Publisher tag for a list of files
