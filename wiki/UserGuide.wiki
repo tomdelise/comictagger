@@ -72,6 +72,12 @@ On Mac something like this:
 /Applications/ComicTagger.app/Contents/MacOS/ComicTagger
 </code>
 
+ Since that is a little ungainly, you might want to consider running the following so you can just use "ComicTagger" from your shell prompt:
+ <code language="sh">
+ ln -s /Applications/ComicTagger.app/Contents/MacOS/ComicTagger  /usr/local/bin 
+ </code>
+
+
 If running from python source, just run "comictagger.py"
 
 Here is the help message:
@@ -111,7 +117,7 @@ If no options are given, comictagger.py will run in windowed mode
   -h, --help                 Display this message                        
 </code>
 
-Assuming a bash shell, here are some example usages:
+Here are some sample usages, that assume running from bash shell on a Mac or other UNIX system.  If using Mac or Windows binary versions, substitute the correct ComicTagger command, as mentioned above.  (Note that the "`*`.cbz" style won't work in the Windows shell, but a explicit file list will)
 
 Print out the tags for a single file
 <code language="sh">
