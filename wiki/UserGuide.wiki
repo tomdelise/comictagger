@@ -20,7 +20,11 @@ The cleaner the original filename is, the better ComicTagger is at matching onli
 
 ===Auto-Select===
 
-ComicTagger uses an image processing technique to compare the cover image of an archive with images found online to determine the correct metadata.  When an online search and auto-select is attempted, ComicTagger will use the series name, issue number, and optionally the publication year to find the best match.  Once the list of possibilities is narrowed, it will compare cover images to find the right choice.  
+ComicTagger uses an image processing technique to compare the cover image of an archive with images found online to determine the correct metadata.  
+
+When an online search and auto-select is attempted, ComicTagger will use the series name, issue number, and optionally the publication year to find the best match.  Once the list of possibilities is narrowed, it will compare cover images to find the right choice. 
+
+_(If the filename parsing failed to properly fill in the series name and number, you can manually enter those fields before you do the auto-select.)_ 
 
 Obstacles to this process are alternate covers, duplicate covers ( such as multiple editions with the same numbering and virtually identical covers), improperly or poorly named files, and mis-sequenced cover images in the archive.
 
