@@ -1,0 +1,13 @@
+==ComicBookInfo/ComicBookLover==
+[https://docs.google.com/document/pub?id=1Tu9eoPWc_8SPgxx5J4-6mEaaRWLLv-bEA8i_jcIe3IE]
+
+[http://code.google.com/p/comicbookinfo/]
+
+
+==ComicRack==
+[http://comicrack.cyolito.com/faqs/7-how-is-ecomic-meta-data-handled]
+
+[http://comicrack.cyolito.com/downloads/ComicRack/Support-Files/ComicInfoSchema.zip/]
+
+==CoMet==
+[http://www.denvog.com/comet/]
