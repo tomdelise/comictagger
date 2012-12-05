@@ -44,6 +44,57 @@ ComicTagger uses the command-line tools "rar" and "unrar", which, despite the wa
 
 Currently, renaming is only on the command-line, and is very limited.  This feature will be expanded and enhanced, eventually.
 
+===Settings===
+ComicTagger keeps the program settings (and caches) in a special folder.  On Windows, you might find it in a folder like:
+
+<code language="bat">
+C:\Users\usrname\AppData\roaming\ComicTagger
+</code>
+
+This might be a little different, depending on your version of Windows
+
+On Unix systems, (including Mac) something like this:
+<code language="sh">
+/Users/username/.ComicTagger
+</code>
+
+or 
+
+<code language="sh">
+/home/username/.ComicTagger
+</code>
+
+
+The settings for the app affect both GUI and CLI mode.  If you're using the GUI, everything in the settings folder can be changed via the app.
+If only using CLI mode, you might want to edit things such as RAR program location, and identifier settings.
+
+The setting file itself is a standard "ini" format, and very human-readable.
+
+<code language="ini">
+[settings]
+rar_exe_path = /usr/local/bin/rar
+unrar_exe_path = /usr/local/bin/unrar
+
+[auto]
+last_selected_data_style = 0
+last_opened_folder = /Users/username/mycomics
+last_main_window_width = 959
+last_main_window_height = 541
+last_main_window_x = 366
+last_main_window_y = 250
+
+[identifier]
+id_length_delta_thresh = 5
+id_publisher_blacklist = Panini Comics, Abril, Scholastic Book Services
+
+[dialogflags]
+ask_about_cbi_in_rar = True
+show_disclaimer = True
+
+[comicvine]
+assume_lone_credit_is_primary = False
+</code>
+
 = GUI User Guide =
 
 The GUI is for the most part pretty intuitive.  You open a file via the menu, or by drag-and-drop, edit the tag fields, and save.  But a some portions deserve a few words.
