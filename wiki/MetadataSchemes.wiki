@@ -1,4 +1,4 @@
-The following are all the details I can find on various open metadata schemes for comic archives.  If you know more apps that support these schemes, or of more schemes, please contact me, and I will add them.
+The following are all the details I can find on various open metadata schemes for comic archives.  If you know more apps that support these schemes, or of more schemes, please comment below, and I will add them.
 
 
 =*ComicBookInfo / ComicBookLover*=
