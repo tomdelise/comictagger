@@ -1,6 +1,7 @@
 #sidebar ""
 
   * [MissionStatement Mission Statement]
+  * [MetadataSchemes]
   * [Screenshots]
   * [ReleaseNotes Release Notes]
   * [Installation]  
