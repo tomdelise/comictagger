@@ -1,3 +1,5 @@
+<wiki:toc max_depth="3" />
+
 =General Features=
 
 === Filename Parsing===
@@ -70,7 +72,7 @@ If only using CLI mode, you might want to edit things such as RAR program locati
 
 The setting file itself is a standard "ini" format, and very human-readable.
 
-<code language="ini">
+{{{
 [settings]
 rar_exe_path = /usr/local/bin/rar
 unrar_exe_path = /usr/local/bin/unrar
@@ -93,7 +95,7 @@ show_disclaimer = True
 
 [comicvine]
 assume_lone_credit_is_primary = False
-</code>
+}}}
 
 = GUI User Guide =
 
