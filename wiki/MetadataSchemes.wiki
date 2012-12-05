@@ -1,13 +1,27 @@
-==ComicBookInfo/ComicBookLover==
-[https://docs.google.com/document/pub?id=1Tu9eoPWc_8SPgxx5J4-6mEaaRWLLv-bEA8i_jcIe3IE]
-
-[http://code.google.com/p/comicbookinfo/]
+The following are all the details I can find on various metadata schemes for comic archives.  If you know more apps that support these schemes, or of more schemes, please contact me, and I will add them.
 
 
-==ComicRack==
-[http://comicrack.cyolito.com/faqs/7-how-is-ecomic-meta-data-handled]
+=ComicBookInfo/ComicBookLover=
+[https://docs.google.com/document/pub?id=1Tu9eoPWc_8SPgxx5J4-6mEaaRWLLv-bEA8i_jcIe3IE CBI Spec Doc]
+
+[http://code.google.com/p/comicbookinfo/ CBI Google Code Site]
+
+=== Comic Readers that use CBL Tags ===
+ComicBookLover for iOS
+ComicBookLover for OSX
+
+
+=ComicRack=
+[http://comicrack.cyolito.com/faqs/7-how-is-ecomic-meta-data-handled ComicRack Metadata FAQ Page]
+
+=== Comic Readers that use CR Tags ===
+ComicRack for Windows
+ComicRack for Android
 
 [http://comicrack.cyolito.com/downloads/ComicRack/Support-Files/ComicInfoSchema.zip/]
 
-==CoMet==
+=CoMet=
 [http://www.denvog.com/comet/]
+
+=== Comic Readers that use CoMet Tags ===
+[http://www.denvog.com/apps/comic-viewer/ ComicViewer (iOS) ]
