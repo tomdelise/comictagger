@@ -1,29 +1,33 @@
-The following are all the details I can find on various metadata schemes for comic archives.  If you know more apps that support these schemes, or of more schemes, please contact me, and I will add them.
+The following are all the details I can find on various open metadata schemes for comic archives.  If you know more apps that support these schemes, or of more schemes, please contact me, and I will add them.
 
-<wiki:toc max_depth="1" />
+<wiki:toc max_depth="3" />
 
-=ComicBookInfo/ComicBookLover=
-[https://docs.google.com/document/pub?id=1Tu9eoPWc_8SPgxx5J4-6mEaaRWLLv-bEA8i_jcIe3IE CBI Spec Doc]
+=*ComicBookInfo / ComicBookLover*=
 
-[http://code.google.com/p/comicbookinfo/ CBI Google Code Site]
+== Online Resource for CBI Tags ==
 
-=== Comic Readers that use CBI Tags ===
+ * [https://docs.google.com/document/pub?id=1Tu9eoPWc_8SPgxx5J4-6mEaaRWLLv-bEA8i_jcIe3IE CBI Spec Doc]
+ * [http://code.google.com/p/comicbookinfo/ CBI Google Code Site]
+
+== Comic Readers that use CBI Tags ==
  * [http://www.bitcartel.com/comicbooklover/ ComicBookLover for iOS]
  * [http://www.bitcartel.com/comicbooklover/ ComicBookLover for OSX]
 
 
-=ComicRack=
-[http://comicrack.cyolito.com/faqs/7-how-is-ecomic-meta-data-handled ComicRack Metadata FAQ Page]
+=*ComicRack*=
+== Online Resource for ComicRack Tags ==
+ * [http://comicrack.cyolito.com/faqs/7-how-is-ecomic-meta-data-handled ComicRack Metadata FAQ Page]
+ * [http://comicrack.cyolito.com/downloads/ComicRack/Support-Files/ComicInfoSchema.zip/ CR Tag Schema Download]
 
-[http://comicrack.cyolito.com/downloads/ComicRack/Support-Files/ComicInfoSchema.zip/ CR Tag Schema Download]
-
-=== Comic Readers that use CR Tags ===
- * ComicRack for Windows
- * ComicRack for Android
+== Comic Readers that use CR Tags ==
+ * [http://comicrack.cyolito.com/ ComicRack for Windows]
+ * [http://comicrack.cyolito.com/ ComicRack for Android]
 
 
-=CoMet=
-[http://www.denvog.com/comet/ CoMet Detail and Spec]
+=*CoMet*=
+== Online Resource for CoMet Tags ==
 
-=== Comic Readers that use CoMet Tags ===
+ * [http://www.denvog.com/comet/ CoMet Detail and Spec]
+
+== Comic Readers that use CoMet Tags ==
  * [http://www.denvog.com/apps/comic-viewer/ ComicViewer (iOS) ]
