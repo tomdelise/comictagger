@@ -150,14 +150,20 @@ If no options are given, comictagger.py will run in windowed mode
       --raw                  With -p, will print out the raw tag block(s)
                              from the file
   -d, --delete               Deletes the tag block of specified type (via -t)
+  -c, --copy=SOURCE          Copy the specified source tag block to destination style
+                             specified via via -t (potentially lossy operation)
   -s, --save                 Save out tags as specified type (via -t)
                              Must specify also at least -o, -p, or -m
+     --nooverwrite           Don't modify tag block if it already exists ( relevent for -s or -c )  
   -n, --dryrun               Don't actually modify file (only relevent for -d, -s, or -r)
-  -t, --type=TYPE            Specify TYPE as either "CR" or "CBL", (as either 
-                             ComicRack or ComicBookLover style tags, respectivly)
+  -t, --type=TYPE            Specify TYPE as either "CR", "CBL", or "COMET" (as either 
+                             ComicRack, ComicBookLover, or CoMet style tags, respectivly)
   -f, --parsefilename        Parse the filename to get some info, specifically
                              series name, issue number, volume, and publication 
                              year
+  -i, --interactive          Interactively query the user when there are multiple matches for
+                             an online search
+      --nosummary            Suppress the default summary after a save operation
   -o, --online               Search online and attempt to identify file using 
                              existing metadata and images in archive. May be used
                              in conjuntion with -f and -m
@@ -171,8 +177,8 @@ If no options are given, comictagger.py will run in windowed mode
   -r, --rename               Rename the file based on specified tag style.
       --noabort              Don't abort save operation when online match is of low confidence  
   -v, --verbose              Be noisy when doing what it does                            
-  -h, --help                 Display this message                        
-</code>
+      --terse                Don't say much (for print mode)                            
+  -h, --help                 Display this message </code>
 
 Here are some sample usages, that assume running from bash shell on a Mac or other UNIX system.  If using Mac or Windows binary versions, substitute the correct ComicTagger command, as mentioned above.  (Note that the "`*`.cbz" style won't work in the Windows shell, but a explicit file list will)
 
@@ -196,7 +202,7 @@ Set the ComicRack tags from online for a single file, using the filename to sear
 ./comictagger.py -s -t cr -f  -o Plastic_Man_001_.cbr
 </code>
 
-Set the ComicRack tags from online for a single file, using the specified tags to search, and be verbose about what it's doing
+Search online for for a single file, using the specified tags to search, be verbose, and save to ComicRack tags
 <code language="sh">
 ./comictagger.py -s -t cr -m "series=Plastic Man,issue=1"  -o -v PlasMan001.cbr
 </code>
@@ -211,7 +217,22 @@ As above, but in "dry run" mode, where it just displays what would be saved
 ./comictagger.py -n -s -t cbl -m "publisher=Quality Comics"   Plastic\ Man*.*
 </code>
 
+Search online for for a list of files, using the filename to search, interactively ask the user at the end (if needed) and save to ComicRack tags
+<code language="sh">
+./comictagger.py -s -t cr -f  -o -i *.cbr
+</code>
+
+As above, but un-sets any year found in the filenames
+<code language="sh">
+./comictagger.py -s -t cr -f  -o -i  -m "year=" *.cbr
+</code>
+
 Rename a file based on ComicRack tags
 <code language="sh">
 ./comictagger.py -r -t cr PlasticManOne.cbz
+</code>
+
+Copy the ComicBookLover tags in an archive  to ComicRack tags
+<code language="sh">
+./comictagger.py -c cbl -t cr PlasticManOne.cbz
 </code>
