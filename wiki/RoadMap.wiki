@@ -3,12 +3,8 @@
 
  * CoMet Support
  * File renaming
- * ComicRack Page info editing
- * CLI: User-interactive matching 
  * Support alternate covers when matching
  * GCD scraper or DB reader
  * Auto-select multiple archives with GUI
  * Batch edit multiple archives with GUI
  * Auto-select w/o issue number
- * Copy between tag styles
- * Convert archive types
