@@ -18,6 +18,8 @@ Blue Beetle 02.cbr
 Crazy Weird Comics 2 (of 2) (1969).rar
 }}}
 
+(In this scheme, the YEAR refers to publication year of the issue.)
+
 The cleaner the original filename is, the better ComicTagger is at matching online.
 
 ===Auto-Select===
