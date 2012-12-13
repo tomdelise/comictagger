@@ -180,7 +180,7 @@ If no options are given, comictagger.py will run in windowed mode
       --terse                Don't say much (for print mode)                            
   -h, --help                 Display this message </code>
 
-Here are some sample usages, that assume running from bash shell on a Mac or other UNIX system.  If using Mac or Windows binary versions, substitute the correct ComicTagger command, as mentioned above.  (Note that the "`*`.cbz" style won't work in the Windows shell, but a explicit file list will)
+Here are some sample usages, that assume running from bash shell on a Mac or other UNIX system.  If using Mac or Windows binary versions, substitute the correct ComicTagger command, as mentioned above.
 
 Print out the tags for a single file
 <code language="sh">
