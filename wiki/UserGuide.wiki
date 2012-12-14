@@ -143,8 +143,6 @@ Here is the help message:
 <code language="txt">
 Usage: comictagger.py [OPTION]... [FILE LIST]
 
-Usage: comictagger.py [OPTION]... [FILE LIST]
-
 A utility for reading and writing metadata to comic archives.
 
 If no options are given, comictagger.py will run in windowed mode
