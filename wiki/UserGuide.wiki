@@ -143,6 +143,8 @@ Here is the help message:
 <code language="txt">
 Usage: comictagger.py [OPTION]... [FILE LIST]
 
+Usage: comictagger.py [OPTION]... [FILE LIST]
+
 A utility for reading and writing metadata to comic archives.
 
 If no options are given, comictagger.py will run in windowed mode
@@ -156,7 +158,7 @@ If no options are given, comictagger.py will run in windowed mode
                              specified via via -t (potentially lossy operation)
   -s, --save                 Save out tags as specified type (via -t)
                              Must specify also at least -o, -p, or -m
-     --nooverwrite           Don't modify tag block if it already exists ( relevent for -s or -c )  
+      --nooverwrite          Don't modify tag block if it already exists ( relevent for -s or -c )  
   -n, --dryrun               Don't actually modify file (only relevent for -d, -s, or -r)
   -t, --type=TYPE            Specify TYPE as either "CR", "CBL", or "COMET" (as either 
                              ComicRack, ComicBookLover, or CoMet style tags, respectivly)
@@ -180,7 +182,8 @@ If no options are given, comictagger.py will run in windowed mode
       --noabort              Don't abort save operation when online match is of low confidence  
   -v, --verbose              Be noisy when doing what it does                            
       --terse                Don't say much (for print mode)                            
-  -h, --help                 Display this message </code>
+      --version              Display version                            
+  -h, --help                 Display this message  
 
 Here are some sample usages, that assume running from bash shell on a Mac or other UNIX system.  If using Mac or Windows binary versions, substitute the correct ComicTagger command, as mentioned above.
 
