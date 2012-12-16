@@ -133,7 +133,7 @@ On Mac something like this:
 
  Since that is a little ungainly, you might want to consider running the following so you can just use "ComicTagger" from your shell prompt:
  <code language="sh">
- ln -s /Applications/ComicTagger.app/Contents/MacOS/ComicTagger  /usr/local/bin 
+ sudo ln -s /Applications/ComicTagger.app/Contents/MacOS/ComicTagger  /usr/local/bin 
  </code>
 
 
