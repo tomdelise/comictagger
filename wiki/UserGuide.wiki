@@ -241,3 +241,8 @@ Copy the ComicBookLover tags in an archive  to ComicRack tags
 <code language="sh">
 ./comictagger.py -c cbl -t cr PlasticManOne.cbz
 </code>
+
+Recursively tag all comics (without ComicRack tags already) under the current folder
+<code language="sh">
+find . -name \*.cb\* |  sed 's/.*/"&"/' |  xargs ./comictagger.py -s -f -o -t cr --nooverwrite -i 
+</code>
