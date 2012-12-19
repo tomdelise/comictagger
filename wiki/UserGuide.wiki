@@ -46,7 +46,28 @@ ComicTagger uses the command-line tools "rar" and "unrar", which, despite the wa
 
 ===Rename===
 
-Currently, renaming is only on the command-line, and is very limited.  This feature will be expanded and enhanced, eventually.
+Renaming based on tag data is available, and a template can be set via the GUI settings dialog, or directly editing the settings file.
+
+The template string accepts the following variables:
+
+<code language="bat">
+%series%
+%issue%
+%issuecount%
+%volume%
+%year%
+%title%
+%publisher%</code>
+
+For example, the template:
+
+{{{%series% #%issue% (%year%)}}}
+
+might yield the name:
+
+{{{Plastic Man #002 (1944)}}}
+
+A "smart text cleanup" can optionally remove extra characters if some of the variables have empty values.  For example, if there is no publication year available, the smart cleanup will remove the empty parentheses in the above example.
 
 ===Settings===
 ComicTagger keeps the program settings (and caches) in a special folder.  On Windows, you might find it in a folder like:
@@ -76,16 +97,16 @@ The setting file itself is a standard "ini" format, and very human-readable.
 
 {{{
 [settings]
-rar_exe_path = /usr/local/bin/rar
-unrar_exe_path = /usr/local/bin/unrar
+rar_exe_path = /usr/bin/rar
+unrar_exe_path = /usr/bin/unrar
 
 [auto]
 last_selected_data_style = 0
-last_opened_folder = /Users/username/mycomics
+last_opened_folder = 
 last_main_window_width = 959
 last_main_window_height = 541
-last_main_window_x = 366
-last_main_window_y = 250
+last_main_window_x = 311
+last_main_window_y = 119
 
 [identifier]
 id_length_delta_thresh = 5
@@ -96,7 +117,21 @@ ask_about_cbi_in_rar = True
 show_disclaimer = True
 
 [comicvine]
+use_series_start_as_volume = False
+
+[cbl_transform]
 assume_lone_credit_is_primary = False
+copy_characters_to_tags = False
+copy_teams_to_tags = False
+copy_locations_to_tags = False
+copy_notes_to_tags = False
+apply_cbl_transform_on_cv_import = False
+apply_cbl_transform_on_bulk_operation = False
+
+[rename]
+rename_template = %series% #%issue% (%year%)
+rename_issue_number_padding = 3
+rename_use_smart_string_cleanup = True
 }}}
 
 = GUI User Guide =
