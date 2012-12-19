@@ -148,6 +148,9 @@ This drop-down also affects which tag block will be read in when the user select
 
 Double-clicking on the cover image, or selecting the Page Browser menu option/toolbar button will bring up a very simple page broswer.  It's meant to allow the user to to inspect pages of the archive to glean hints about metadata, and is in no way meant to be a comic reader.
 
+===Page List Editor===
+
+The page list editor tab allows the user to change order that pages are display, and assign different page types.  The page list order can be changed by using the up and down buttons, or by dragging and dropping.
 
 = CLI User Guide =
 
