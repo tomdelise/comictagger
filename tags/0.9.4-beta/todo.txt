@@ -1,0 +1,93 @@
+-----------------------------------------------------
+Features
+-----------------------------------------------------
+
+Multi-file:
+		Does the main UI need to have "View/Read Tag Style" and "Write Tag style" concept?
+		Create ComicArchiveListWidget
+				as item is added, new metadata object is attached (for each block??)
+				
+        How to add items to list?
+				recursive
+				drag and drop
+
+-----------------------------------------------------
+Bugs
+-----------------------------------------------------
+
+-----------------------------------------------------
+Big  Future Features
+-----------------------------------------------------
+GUI to handle mutliple files or folders
+
+Scrape alternate Covers from ComicVine issue pages
+
+GCD scraper or DB reader
+
+pyComicMetaThis CBI features
+
+Auto search:
+	Searching w/o issue #
+-----------------------------------------------------
+Small(er) Future Feature
+-----------------------------------------------------
+Parse out the rest of the scan info from filename
+
+Style sheets for windows/mac/linux
+ 
+CLI
+	explicit metadata settings option format
+		-- figure out how to add CBI "tags"
+		-- delete CBI "tags"
+		-- set primary credit flags
+		-- set frontcover and others?
+
+Archive function to  detect tag blocks out of sync
+
+Settings
+	Add setting to dis-allow writing CBI to RAR
+	Overwrite or overlay
+
+Google App engine to store hashes 
+	Content Hashes, Image hashes, who knows?
+
+Filename parsing:
+	Rework how series name is separated from issue
+	
+Support marvel's "AU" issues...
+	Mostly done, gotta wait and see what CV does
+	
+Internal GenericMetadata - Make Characters, Genre into lists?
+
+-----------------------------------------------------
+Config Mgmt check list
+-----------------------------------------------------
+
+Release Process
+    Optionally, make screen shots, upload to wiki
+    Update release notes and wiki
+	Update ctversion.py
+	Build packages
+	    Make exe on Windows
+		Make dmg on Mac
+		Make zip on Mac or Linux
+    Tag the repository
+	Upload packages
+	Announce on Forum and Main Page
+	
+----------------------------------------------
+
+
+COMIC RACK Questions
+
+Missing from XML as enterable in ComicRack:
+	Main Character or Team
+	Review
+	User Rating
+	
+Some that seem library only:
+	"Series Complete"
+	Tags
+	Proposed Values
+	Community Rating
+	
