@@ -1,0 +1,57 @@
+
+---------------------------------  
+0.9.5-beta - 16-Jan-2013
+---------------------------------
+Changes:
+  Added CLI option to search by comicvine issue ID
+  Some image loading optimizations
+  Bug Fix:  Some CBL fields that should have been ints were written as strings
+
+---------------------------------  
+0.9.4-beta - 7-Jan-2013
+---------------------------------
+Changes:
+  Better handling of non-ascii characters in filenames and data
+  Add CBL Transform to copy Web Link and Notes to comments
+  Minor bug fixes
+
+---------------------------------  
+0.9.3-beta - 19-Dec-2012
+---------------------------------
+Changes:
+  File rename in GUI
+  Setting for file rename
+  Option to use series start year as volume
+  Added "CBL Transform" to handle primary credits copying data into the generic tags field
+  Bug Fix:  unicode characters in credits caused crash 
+  Bug Fix:  bad or non-image data in file caused crash 
+
+Note:
+  The user should clear the cache and delete the existing settings when first running this version.
+  
+---------------------------------  
+0.9.2-beta - 13-Dec-2012
+---------------------------------
+  Page List/Type editing in GUI
+  File globbing for windows CLI (i.e. use of wildcards like '*.cbz')
+  Fixed RAR writing bug on windows
+  Minor bug and crash fixes
+
+---------------------------------  
+0.9.1-beta - 07-Dec-2012
+---------------------------------
+  Export as ZIP Archive
+  Added help menu option for websites
+  Added Primary Credit Flag editing
+  Menu enhancements
+  CLI Enhancements:
+	Interactive selection of matches
+	Tag copy
+	Better output
+	CoMet support
+  Minor bug and crash fixes
+
+---------------------------------  
+0.9.0-beta - 30-Nov-2012
+---------------------------------
+Initial beta release
