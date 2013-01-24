@@ -1,3 +1,9 @@
+===1.0.1-beta===
+23-Jan-2013
+
+Bug Fix:
+* Fixed an issue where unicode strings can't be printed to OS X Console
+
 ===1.0.0-beta===
 23-Jan-2013
 
