@@ -23,11 +23,11 @@ Crazy Weird Comics 2 (of 2) (1969).rar
 
 The cleaner the original filename is, the better ComicTagger is at matching online.
 
-===Auto-Select===
+===Automatic Identification and Tagging===
 
 ComicTagger uses an image processing technique to compare the cover image of an archive with images found online to determine the correct metadata.  
 
-When an online search and auto-select is attempted, ComicTagger will use the series name, issue number, and optionally the publication year to find the best match.  Once the list of possibilities is narrowed, it will compare cover images to find the right choice. 
+When an online search and auto-identification is attempted, ComicTagger will use the series name, issue number, and optionally the publication year to find the best match.  Once the list of possibilities is narrowed, it will compare cover images to find the right choice. 
 
 _(If the filename parsing failed to properly fill in the series name and number, you can manually enter those fields before you do the auto-select.)_ 
 
@@ -159,7 +159,7 @@ The "Read Style" affects which tag block shown in the form when the user changes
 
 === Search vs. Auto-Identify vs. Auto-Tag===
 
-ComicTagger offers several different ways to acquire tags online:
+The ComicTagger GUI offers several different ways to acquire tags online:
 
 The "Search" function uses only the text that has been entered in the "Series" field of the form.  It offers an entirely interactive method for tagging. It affects only the data in the form.
 
