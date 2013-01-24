@@ -142,13 +142,30 @@ rename_extension_based_on_archive = True
 
 = GUI User Guide =
 
-The GUI is for the most part pretty intuitive.  You open a file via the menu, or by drag-and-drop, edit the tag fields, and save.  But a some portions deserve a few words.
+The GUI is for the most part pretty intuitive.  You open files or folders via the menu, or by drag-and-drop, edit the tag fields, and save.  But a some portions deserve a few words.
 
-=== Tag Style Drop-down ===
+=== Archive List ===
+The right side of the main window is a list of all the comic files that have been opened by ComicTagger.  As each file is read in, its existing metadata and other information are parsed and cached for quick browsing.  Changing main selections in the list will cause the form to update, depending on which "Read Style" is selected.  A right-click context menu is available for easy access to batch functions.
 
-The "Tag Style" drop-down selection in the upper corner selects how the tags will be saved.  When the style is changed, certain entry fields will change color, and go inactive if those fields won't be saved for the selected style.  For example, the ComicRack tag style doesn't support a field for "Country", so that entry control will be marked red, and made inactive.
+Multiple archives can be selected for batch operations.
 
-This drop-down also affects which tag block will be read in when the user selects the menu choice to "Reload Select Tag Block"
+=== Tag Style Drop-downs ===
+
+The "Read Style" and "Modify Style" drop-down selections in the upper corner select which tags are shown in the form, and how the tags will be saved. 
+
+When the "Modify Style" is changed, certain entry fields will change color, and go inactive if those fields won't be saved for the selected style.  For example, the ComicRack tag style doesn't support a field for "Country", so that entry control will be marked red, and made inactive. This block also affects the tag removal menu option, auto-tag, save, and the copy destination tag block. 
+
+The "Read Style" affects which tag block shown in the form when the user changes the list selection. This drop-down also affects which tags will be used in renaming, and the source tag block for a copy operation.
+
+=== Search vs. Auto-Identify vs. Auto-Tag===
+
+ComicTagger offers several different ways to acquire tags online:
+
+The "Search" function uses only the text that has been entered in the "Series" field of the form.  It offers an entirely interactive method for tagging. It affects only the data in the form.
+
+"Auto-Identify" uses the "Series", "Issue", and "Year" fields in the form.  It will attempt to compare covers of comics online to determine the best match.  When done, it will fill in the form, same as the "Search" function
+
+"Auto-Tag" does not use the form data at all.  It is meant to be used with many files at once, and will use any metadata in the file and the file names as search keys.  As it matches comics, it will write out the tag automatically. 
 
 ===Page Browser===
 
