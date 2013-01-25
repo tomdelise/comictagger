@@ -1,3 +1,15 @@
+===1.0.2-beta===
+25-Jan-2013
+
+====Changes====
+ * More verbose logging during auto-tag
+ * Added %month% and %month_name% for renaming
+ * Better parsing of volume numbers in file name
+====Bug Fixes====
+ * Better exception handling with corrupted image data
+ * Fixed issues with RAR reading on OS X
+ * Other minor bug fixes
+
 ===1.0.1-beta===
 23-Jan-2013
 
