@@ -57,6 +57,8 @@ The template string accepts the following variables:
 %issuecount%
 %volume%
 %year%
+%month%
+%month_name%
 %title%
 %publisher%</code>
 
