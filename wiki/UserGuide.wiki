@@ -102,11 +102,11 @@ To try to cope with these idiosyncrasies, ComicTagger has a set of one-way optio
 
 The transforms include: 
 
-* Assume the only writer or artist credit is the primary one
-* Copying the list of characters to the generic tags
-* Copying the list of teams to the generic tags
-* Copying the list of locations to the generic tags
-* Copy the weblink to the text comments
+ * Assume the only writer or artist credit is the primary one
+ * Copying the list of characters to the generic tags
+ * Copying the list of teams to the generic tags
+ * Copying the list of locations to the generic tags
+ * Copying the weblink to the text comments
 
 ===Settings===
 ComicTagger keeps the program settings (and caches) in a special folder.  On Windows, you might find it in a folder like:
