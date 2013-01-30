@@ -21,6 +21,29 @@ Crazy Weird Comics 2 (of 2) (1969).rar
 
 (In this scheme, the YEAR refers to publication year of the issue.)
 
+Some other notes:
+
+ * ComicTagger is happiest when the issue number has a "#" in front of it:
+{{{
+Foobar-Man #121 (1974).cbz
+}}}
+
+ * The volume name should come after the series name and before the issue number.
+{{{
+Foobar-Man Annual v2 #121 (1984).cbz
+Foobar-Man Annual Vol. 2 121 (1984).cbz
+}}}
+
+ * The first thing the filename parser tries to find is the issue number.  If the '#' isn't used, the parser will try to find the most likely number.  Generally, any parts of the filename that don't have parentheses around them are considered.  The first example is will parse okay:
+{{{
+Foobar-Man Annual v2 121 (The Wrath of Foobar-Man, Part 1 of 2).cbz
+}}}
+
+This second example is NOT OK!:
+{{{
+Foobar-Man Annual v2 121 - The Wrath of Foobar-Man, Part 1 of 2.cbz
+}}}
+
 The cleaner the original filename is, the better ComicTagger is at matching online.
 
 ===Automatic Identification and Tagging===
