@@ -257,7 +257,7 @@ Usage: ComicTagger [OPTION]... [FILE LIST]
 
 A utility for reading and writing metadata to comic archives.
 
-If no options are given, comictagger.py will run in windowed mode
+If no options are given, ComicTagger will run in windowed mode
 
   -p, --print                Print out tag info from file.  Specify type
                              (via -t) to get only info of that tag type
@@ -290,7 +290,11 @@ If no options are given, comictagger.py will run in windowed mode
                              Some names that can be used:
                                  series, issue, issueCount, year, publisher, title
   -r, --rename               Rename the file based on specified tag style.
-      --noabort              Don't abort save operation when online match is of low confidence  
+      --noabort              Don't abort save operation when online match is of low confidence
+  -e, --export-to-zip        Export RAR archive to Zip format
+      --delete-rar           Delete original RAR archive after successful export to Zip
+      --abort-on-conflict    Don't export to zip if intended new filename exists (Otherwise, creates
+                             a new unique filename)	  
   -v, --verbose              Be noisy when doing what it does                            
       --terse                Don't say much (for print mode)                            
       --version              Display version                            
@@ -301,67 +305,72 @@ Here are some sample usages, that assume running from bash shell on a Mac or oth
 
 Print out the tags for a single file
 <code language="sh">
-./comictagger.py -p Plastic_Man_001_.zip
+ComicTagger -p Plastic_Man_001_.zip
 </code>
 
 Print out the ComicRack tags for all CBZ files in the folder
 <code language="sh">
-./comictagger.py -p -t cr *.cbz
+ComicTagger -p -t cr *.cbz
 </code>
 
 Delete the ComicBookLover tags for all CBR files in the folder
 <code language="sh">
-./comictagger.py -d -t cbl *.cbr
+ComicTagger -d -t cbl *.cbr
 </code>
 
 Set the ComicRack tags from online for a single file, using the filename to search
 <code language="sh">
-./comictagger.py -s -t cr -f  -o Plastic_Man_001_.cbr
+ComicTagger -s -t cr -f  -o Plastic_Man_001_.cbr
 </code>
 
 Search online for for a single file, using the specified tags to search, be verbose, and save to ComicRack tags
 <code language="sh">
-./comictagger.py -s -t cr -m "series=Plastic Man,issue=1"  -o -v PlasMan001.cbr
+ComicTagger -s -t cr -m "series=Plastic Man,issue=1"  -o -v PlasMan001.cbr
 </code>
 
 Set the ComicBookLover Publisher tag for a list of files
 <code language="sh">
-./comictagger.py -s -t cbl -m "publisher=Quality Comics"   Plastic\ Man*.*
+ComicTagger -s -t cbl -m "publisher=Quality Comics"   Plastic\ Man*.*
 </code>
 
 As above, but in "dry run" mode, where it just displays what would be saved
 <code language="sh">
-./comictagger.py -n -s -t cbl -m "publisher=Quality Comics"   Plastic\ Man*.*
+ComicTagger -n -s -t cbl -m "publisher=Quality Comics"   Plastic\ Man*.*
 </code>
 
 Search online for for a list of files, using the filename to search, interactively ask the user at the end (if needed) and save to ComicRack tags
 <code language="sh">
-./comictagger.py -s -t cr -f  -o -i *.cbr
+ComicTagger -s -t cr -f  -o -i *.cbr
 </code>
 
 As above, but un-sets any year found in the filenames
 <code language="sh">
-./comictagger.py -s -t cr -f  -o -i  -m "year=" *.cbr
+ComicTagger -s -t cr -f  -o -i  -m "year=" *.cbr
 </code>
 
 Rename a file based on ComicRack tags
 <code language="sh">
-./comictagger.py -r -t cr PlasticManOne.cbz
+ComicTagger -r -t cr PlasticManOne.cbz
 </code>
 
 Copy the ComicBookLover tags in an archive  to ComicRack tags
 <code language="sh">
-./comictagger.py -c cbl -t cr PlasticManOne.cbz
+ComicTagger -c cbl -t cr PlasticManOne.cbz
+</code>
+
+Export all CBR files in folder to Zip format
+<code language="sh">
+ComicTagger -e *.cbr
 </code>
 
 The following examples make use of the "find" command do do recursive searches:
 
 Recursively tag all comics (without ComicRack tags already) under the current folder
 <code language="sh">
-find . -name \*.cb\* |  sed 's/.*/"&"/' |  xargs ./comictagger.py -s -f -o -t cr --nooverwrite -i 
+find . -name \*.cb\* |  sed 's/.*/"&"/' |  xargs ComicTagger -s -f -o -t cr --nooverwrite -i 
 </code>
 
 Recursively copy all ComicRack tags to CBL tags
 <code language="sh">
-find . -name \*.cb\* |  sed 's/.*/"&"/' |  xargs ./comictagger.py -c cr -t cbl  
+find . -name \*.cb\* |  sed 's/.*/"&"/' |  xargs ComicTagger -c cr -t cbl  
 </code>
