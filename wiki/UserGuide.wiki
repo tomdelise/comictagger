@@ -77,13 +77,25 @@ The template string accepts the following variables:
 <code language="bat">
 %series%
 %issue%
-%issuecount%
 %volume%
+%issuecount%
 %year%
 %month%
 %month_name%
+%publisher%
 %title%
-%publisher%</code>
+%genre%
+%language_code%
+%criticalrating%
+%alternateseries%
+%alternatenumber%
+%alternatecount%
+%imprint%
+%format%
+%maturityrating%
+%storyarc%
+%seriesgroup%
+%scaninfo%</code>
 
 For example, the template:
 
