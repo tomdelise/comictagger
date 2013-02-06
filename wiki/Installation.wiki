@@ -19,6 +19,7 @@ To run ComicTagger from the python source, you may need to install some pre-requ
   * Python 2.6 or 2.7
   * PyQt matching the Python version -- _(Only needed for GUI)_
   * PIL, the Python Imaging Library -- _(Only need for automated matching)_
+  * BeautifulSoup 4
 
 See below for some platform-specific details
 
