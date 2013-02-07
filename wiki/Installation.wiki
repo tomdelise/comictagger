@@ -14,12 +14,6 @@ Download the DMG file, open it, and drag the app onto your Desktop or Applicatio
 
 The source package is much smaller, and if you only want to run ComicTagger as a command-line app, you may want to install this way.  
 
-On Mac or Linux systems, you have the option to use "pip" (or "easy_install") to install ComicTagger:
-
-{{{
-pip install comictagger
-}}}
-
 To run ComicTagger from the python source, you may need to install some pre-requisites:
 
   * Python 2.6 or 2.7
@@ -30,6 +24,13 @@ To run ComicTagger from the python source, you may need to install some pre-requ
 See below for some platform-specific details
 
 If you are downloading manually, extract the source zip file.  Run the file called "comictagger.py".  
+
+On certain systems, you have the option to use "pip" (or "easy_install") to install ComicTagger:
+
+{{{
+pip install comictagger
+}}}
+
 
 If you used pip, then "comictagger.py" should be in your path.  ( On Windows, probably "C:\Python\Scripts" )
 
