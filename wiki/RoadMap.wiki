@@ -1,6 +1,5 @@
 == Planned Features for future releases of ComicTagger==
 
  * Batch edit multiple archives with GUI
- * Support alternate covers when matching
  * GCD scraper or DB reader
  * CoMet Support
