@@ -219,7 +219,9 @@ The "Search" function uses only the text that has been entered in the "Series" f
 
 ===Page Browser===
 
-Double-clicking on the cover image, or selecting the Page Browser menu option/toolbar button will bring up a very simple page broswer.  It's meant to allow the user to to inspect pages of the archive to glean hints about metadata, and is in no way meant to be a comic reader.
+Selecting the Page Browser menu option/toolbar button will bring up a very simple page broswer.  It's meant to allow the user to to inspect pages of the archive to glean hints about metadata, and is in no way meant to be a comic reader.
+
+In addition, double-clicking on cover or page images throughout the app will often bring up a full page view of the image.
 
 ===Page List Editor===
 
