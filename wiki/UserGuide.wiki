@@ -107,7 +107,7 @@ might yield the name:
 
 A "smart text cleanup" can optionally remove extra characters if some of the variables have empty values.  For example, if there is no publication year available, the smart cleanup will remove the empty parentheses in the above example.
 
-===CBL Transmforms===
+===CBL Transforms===
 The ComicBookLover tag format (ComicBookInfo or CBI) has less dedicated fields than Comic Vine or the ComicRack format, but it does allow for a generic tag list that can be of any length.  In addition, CBI has a unique way of managing credit information that has a concept of "Primary Writer" and "Primary Artist", which can often be guessed from the data at hand.
 
 To try to cope with these idiosyncrasies, ComicTagger has a set of one-way optional "transforms" can be applied to when copying from other tag formats, when fetching data from Comic Vine, or manually via the GUI.
