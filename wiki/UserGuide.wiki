@@ -211,9 +211,9 @@ The "Read Style" affects which tag block shown in the form when the user changes
 
 The ComicTagger GUI offers several different ways to acquire tags online:
 
-The "Search" function uses only the text that has been entered in the "Series" field of the form.  It offers an entirely interactive method for tagging. It affects only the data in the form.
+The "Search" function uses only the text that has been entered in the "Series" field of the form.  It offers an entirely interactive method for tagging a single file. It affects only the data in the form.
 
-"Auto-Identify" uses the "Series", "Issue", and "Year" fields in the form.  It will attempt to compare covers of comics online to determine the best match.  When done, it will fill in the form, same as the "Search" function
+"Auto-Identify" uses the "Series", "Issue", and "Year" fields in the form.  It will attempt to compare covers of comics online to determine the best match for a single file.  Like the search function, it affects only the data in the form.
 
 "Auto-Tag" does not use the form data at all.  It is meant to be used with many files at once, and will use any metadata in the file and the file names as search keys.  As it matches comics, it will write out the tag automatically. 
 
