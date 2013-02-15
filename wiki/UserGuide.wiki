@@ -365,6 +365,17 @@ Export all CBR files in folder to Zip format
 ComicTagger -e *.cbr
 </code>
 
+Recursively tag all comics (without ComicRack tags already) under the current folder
+<code language="sh">
+ComicTagger -R -s -f -o -t cr --nooverwrite -i -v /path/to/comics
+</code>
+
+Run a custom python script using comictaggerlib:
+<code language="sh">
+ComicTagger -S /path/to/script.py
+</code>
+
+
 The following examples make use of the "find" command do do recursive searches:
 
 Recursively tag all comics (without ComicRack tags already) under the current folder
