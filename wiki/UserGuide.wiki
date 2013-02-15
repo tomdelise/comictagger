@@ -255,11 +255,11 @@ If running from python source, just run "comictagger.py"
 
 Here is the help message:
 <code language="txt">
-Usage: ComicTagger [OPTION]... [FILE LIST]
+Usage: comictagger.py [OPTION]... [FILE LIST]
 
 A utility for reading and writing metadata to comic archives.
 
-If no options are given, ComicTagger will run in windowed mode
+If no options are given, comictagger.py will run in windowed mode
 
   -p, --print                Print out tag info from file.  Specify type
                              (via -t) to get only info of that tag type
@@ -296,11 +296,14 @@ If no options are given, ComicTagger will run in windowed mode
   -e, --export-to-zip        Export RAR archive to Zip format
       --delete-rar           Delete original RAR archive after successful export to Zip
       --abort-on-conflict    Don't export to zip if intended new filename exists (Otherwise, creates
-                             a new unique filename)	  
+                             a new unique filename)
+  -S, --script=FILE          Run an "add-on" python script that uses the comictagger library for custom
+                             processing.  Script arguments can follow the script name  
+  -R, --recursive            Recursively include files in sub-folders                            
   -v, --verbose              Be noisy when doing what it does                            
       --terse                Don't say much (for print mode)                            
       --version              Display version                            
-  -h, --help                 Display this message 
+  -h, --help                 Display this message
 </code>
 
 Here are some sample usages, that assume running from bash shell on a Mac or other UNIX system.  If using Mac or Windows binary versions, substitute the correct ComicTagger command, as mentioned above.
