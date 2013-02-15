@@ -1,3 +1,12 @@
+===1.1.2-beta===
+24-Feb-2013
+====Changes====
+ * Source is now packaged using Python distutils
+ * Recursive mode for CLI
+ * Run custom add-on scripts from CLI
+ * Minor UI tweaks
+ * Misc bug fixes
+
 ===1.1.0-beta===
 06-Feb-2013
 ====Changes====
