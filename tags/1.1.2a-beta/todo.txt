@@ -1,0 +1,76 @@
+-----------------------------------------------------
+Features
+-----------------------------------------------------
+Rename dialog:
+	check-box for rows?
+	manual edit the preview?
+		
+Docs:
+	Auto-Tagging Tips:
+		Multiple Passes with different options
+		
+-----------------------------------------------------
+Bugs	
+-----------------------------------------------------
+
+Zip flakes out when filename differs from index (or whatever)  i.e "\" vs "/". Python issue
+
+-----------------------------------------------------
+Big  Future Features
+-----------------------------------------------------
+
+GCD scraper or DB reader
+
+Batch Edit
+	Form Mode:  Single vs Batch
+	
+-----------------------------------------------------
+Small(er) Future Feature
+-----------------------------------------------------
+Parse out the rest of the scan info from filename
+
+Style sheets for windows/mac/linux
+ 
+CLI
+	explicit metadata settings option format
+		-- figure out how to add CBI "tags"
+		-- delete CBI "tags"
+		-- set primary credit flags
+		-- set frontcover and others?
+
+Archive function to  detect tag blocks out of sync
+
+Settings
+	Add setting to dis-allow writing CBI to RAR
+
+Google App engine to store hashes 
+	Content Hashes, Image hashes, who knows?
+
+Filename parsing:
+	Rework how series name is separated from issue
+	
+Support marvel's "AU" issues...
+	Mostly done, gotta wait and see what CV does
+	
+Internal GenericMetadata - Make Characters, Genre into lists?
+
+-----------------------------------------------------
+Config Mgmt check list
+-----------------------------------------------------
+
+Release Process
+    Optionally, make screen shots, upload to wiki
+    Update release notes and wiki
+	Update ctversion.py
+	Build packages
+	    Make exe on Windows
+		Make dmg on Mac
+		Make zip on Mac or Linux
+    Tag the repository
+	Upload packages
+	Announce on Forum and Main Page
+	
+----------------------------------------------
+
+	
+rename 's/([A-Za-z]+)(\d+)(.cb[rz])/$1 $2$3/' *.cb?
