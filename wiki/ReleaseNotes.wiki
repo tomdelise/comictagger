@@ -3,7 +3,6 @@
 ====Bug Fixes====
  * Fixed a bug when renaming on non-English systems
  * Fixed issue when saving settings on non-English systems
- * Fixed a bug when comic contains non-RGB images
  * Fixed a rare crash when comic image is not-RGB format
  * Fixed sequence order of ComicInfo.xml items
 
