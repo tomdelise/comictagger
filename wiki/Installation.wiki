@@ -20,6 +20,7 @@ To run ComicTagger from the python source, you may need to install some pre-requ
   * PyQt matching the Python version -- _(Only needed for GUI)_
   * PIL, the Python Imaging Library -- _(Only need for automated matching)_
   * Beautiful Soup 4
+  * configparser
 
 See below for some platform-specific details
 
@@ -41,7 +42,7 @@ Getting PyQt and PIL installed is probably easiest (although very slow) via brew
 Once you have brew installed:
 {{{
 brew install python pyqt pil pip
-pip install beautifulsoup4
+pip install beautifulsoup4 configparser
 }}}
 
 
