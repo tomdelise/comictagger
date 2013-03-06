@@ -56,9 +56,10 @@ More TBD.
   * Beautiful Soup - http://www.crummy.com/software/BeautifulSoup/
 
 == Linux ==
-On the Ubuntu 12.10 all requirements should be available already.  On other systems, use the package manager such as apt-get or yum to install whatever is missing.
+On the Ubuntu 12.10 most requirements should be available already.  On other systems, use the package manager such as apt-get or yum to install whatever is missing.
 
 i.e.
 {{{
 sudo apt-get install python-qt4 python-imaging python-bs4
+sudo pip easy_install configparser
 }}}
