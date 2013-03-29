@@ -3,19 +3,3 @@
  * Batch edit multiple archives with GUI
  * GCD scraper or DB reader
  * CoMet Support
-
-
-==Donations and Adorations==
-
-If you like ComicTagger, and want to share the love, make a donation to buy me a beer or a coffee!
- * *Paypal:* [https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=comictagger%40gmail%2ecom&lc=US&item_name=ComicTagger%20Project&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif]
-
- * *Bitcoin:* 1DqAWd1dovNbwPCFe56bpPnbeCTAR2AMWC
-
-Or, if you just want to spread the word, rate ComicTagger, or write a review, at the some of the following sites:
-
- * *[http://www.macupdate.com/app/mac/47099/comictagger MacUpdate]*
- * *[http://www.softpedia.com/get/Multimedia/Graphic/Graphic-Others/ComicTagger.shtml Softpedia (Windows)]* 
- * *[http://mac.softpedia.com/get/Utilities/ComicTagger.shtml Softpedia (Mac)]* 
- * *[http://linux.softpedia.com/get/Multimedia/Graphics/ComicTagger-96265.shtml Softpedia (Linux)]*
- * *[http://download.cnet.com/ComicTagger/3000-2130_4-75827445.html CNET (Windows)]*
