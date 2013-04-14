@@ -35,7 +35,7 @@ pip install comictagger
 
 If you used pip, then "comictagger.py" should be in your path.  ( On Windows, probably "C:\Python\Scripts" )
 
-=== Mac OS X Source ===
+===Source on Mac OS X===
 
 ===== CLI=====
 For running in command-line mode, you will need to install the following python packages:
@@ -62,14 +62,14 @@ Another option for PyQT are the binaries here: : http://sourceforge.net/projects
 
 _If you have any success with running the GUI on OSX from source, please post here or on the CT forums._  
 
-=== Windows Source ===
+===Source on Windows===
 
   * Python - http://www.python.org/getit/releases/2.7.3/
   * PyQt - http://www.riverbankcomputing.com/software/pyqt/download
   * PIL - http://www.pythonware.com/products/pil/
   * Beautiful Soup - http://www.crummy.com/software/BeautifulSoup/
 
-=== Linux Source ===
+===Source on Linux===
 Use the system package manager and python tools to install the requirements.  For example, use {{{apt-get}}} on Debian/Ubuntu systems:
 
 
