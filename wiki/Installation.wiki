@@ -1,12 +1,13 @@
+<wiki:toc max_depth="3" />
 =Binary Packages=
 
 For Windows and Mac, application packages are available. This is the easiest way to run ComicTagger.
 
-==== Windows ====
+=== Windows Binary Package===
 
 Download the installer .exe and run it.  
 
-==== Mac OS X ====
+=== Mac OS X Binary Package===
 
 Download the DMG file, open it, and drag the app onto your Desktop or Applications folder.
 
