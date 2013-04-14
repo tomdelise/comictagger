@@ -271,6 +271,7 @@ If no options are given, comictagger.py will run in windowed mode
   -s, --save                 Save out tags as specified type (via -t)
                              Must specify also at least -o, -p, or -m
       --nooverwrite          Don't modify tag block if it already exists ( relevent for -s or -c )  
+  -1, --assume-issue-one     Assume issue number is 1 if not found ( relevent for -s )  
   -n, --dryrun               Don't actually modify file (only relevent for -d, -s, or -r)
   -t, --type=TYPE            Specify TYPE as either "CR", "CBL", or "COMET" (as either 
                              ComicRack, ComicBookLover, or CoMet style tags, respectivly)
