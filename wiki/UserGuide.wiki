@@ -35,14 +35,18 @@ Foobar-Man Annual Vol. 2 121 (1984).cbz
 }}}
 
  * The first thing the filename parser tries to find is the issue number.  If the '#' isn't used, the parser will try to find the most likely number.  Generally, any parts of the filename that don't have parentheses around them are considered.  The first example is will parse okay:
-{{{
-Foobar-Man Annual v2 121 (The Wrath of Foobar-Man, Part 1 of 2).cbz
-}}}
+ {{{
+ Foobar-Man Annual v2 121 (The Wrath of Foobar-Man, Part 1 of 2).cbz
+ }}}
+ This second example <font color="red">will not parse OK</font> as the parser doesn't know which number is the issue number:
+ {{{
+Foobar-Man Annual 121 - The Wrath of Foobar-Man, Part 1 of 2.cbz
+ }}}
 
-This second example is NOT OK!:
-{{{
-Foobar-Man Annual v2 121 - The Wrath of Foobar-Man, Part 1 of 2.cbz
-}}}
+ You can also use a double dash ("--") or double underscore ("`__`") to precede the part of the filename  that won't be parsed.  The following example will parse OK, since the text after the double dash will be  ignored:
+ {{{
+ Foobar-Man Annual v2 121 -- The Wrath of Foobar-Man, Part 1 of 2.cbz
+ }}}
 
 The cleaner the original filename is, the better ComicTagger is at matching online.
 
@@ -52,7 +56,7 @@ ComicTagger uses an image processing technique to compare the cover image of an 
 
 When an online search and auto-identification is attempted, ComicTagger will use the series name, issue number, and optionally the publication year to find the best match.  Once the list of possibilities is narrowed, it will compare cover images to find the right choice. 
 
-_(If the filename parsing failed to properly fill in the series name and number, you can manually enter those fields before you do the auto-select.)_ 
+_(If the filename parsing failed to properly fill in the series name and number, you can manually enter those fields before you do the auto-identify.)_ 
 
 Obstacles to this process are alternate covers, duplicate covers ( such as multiple editions with the same numbering and virtually identical covers), improperly or poorly named files, and mis-sequenced cover images in the archive.
 
