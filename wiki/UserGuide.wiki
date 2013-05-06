@@ -16,6 +16,7 @@ i.e.
 {{{
 Plastic Man v1 002 (1942).cbz
 Blue Beetle 02.cbr
+Monster Island vol. 2 #2.cbz
 Crazy Weird Comics 2 (of 2) (1969).rar
 }}}
 
@@ -47,6 +48,13 @@ Foobar-Man Annual 121 - The Wrath of Foobar-Man, Part 1 of 2.cbz
  {{{
  Foobar-Man Annual v2 121 -- The Wrath of Foobar-Man, Part 1 of 2.cbz
  }}}
+ * As mentioned above, most text in parentheses will be ignored.  This is also true for text after "--" or "`__`":
+ {{{
+ Monster Island v1 1 (orginal cover) (c2c) .cbz
+ Monster_Island_v1_2__repaired__c2c.cbz
+ Monster Island v1 3 (1957) -- The Revenge Of King Klong (noads).cbz
+ }}}
+ Any text that is not explicty parsed as series name, volume, issue number, or publication year, or issue count will be saved in the "scan info" field, if enabled.
 
 The cleaner the original filename is, the better ComicTagger is at matching online.
 
