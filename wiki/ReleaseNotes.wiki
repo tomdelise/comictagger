@@ -1,3 +1,8 @@
+===1.1.9-beta===
+8-May-2013
+ * Filename parser and identification enhancements
+ * Misc bug fixes
+
 ===1.1.8-beta===
 21-Apr-2013
  * Handle occasional error 500 from Comic Vine by retrying a few times
