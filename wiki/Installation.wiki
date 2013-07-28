@@ -76,7 +76,7 @@ Use the system package manager and python tools to install the requirements.  Fo
 
 {{{
 sudo apt-get install python-qt4 python-imaging python-bs4
-sudo pip easy_install configparser
+sudo pip install configparser
 }}}
 
 Other systems might use yum.  _Please share if you have a installation process not detailed here._
