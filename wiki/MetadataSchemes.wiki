@@ -11,7 +11,7 @@ The following are all the details I can find on various open metadata schemes fo
 == Comic Readers that use CBI Tags ==
  * [http://www.bitcartel.com/comicbooklover/ ComicBookLover for iOS]
  * [http://www.bitcartel.com/comicbooklover/ ComicBookLover for OSX]
-
+ * [http://calibre-ebook.com/ Cailbre] (E-book reader)
 
 =*ComicRack*=
 == Online Resource for ComicRack Tags ==
@@ -22,7 +22,7 @@ The following are all the details I can find on various open metadata schemes fo
  * [http://comicrack.cyolito.com/ ComicRack for Windows]
  * [http://comicrack.cyolito.com/ ComicRack for Android]
  * [http://comicrack.cyolito.com/ ComicRack for iOS]
- * [http://www.bitolithic.com/comic-zeal/ ComicZeal (iOS)]
+ * [http://www.bitolithic.com/comic-zeal/ ComicZeal (iOS)] (For series sorting only)
 
 =*CoMet*=
 == Online Resource for CoMet Tags ==
