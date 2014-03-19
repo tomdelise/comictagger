@@ -21,7 +21,7 @@ The following are all the details I can find on various open metadata schemes fo
 == Comic Readers that use CR Tags ==
  * [http://comicrack.cyolito.com/ ComicRack for Windows]
  * [http://comicrack.cyolito.com/ ComicRack for Android]
-
+ * [http://comicrack.cyolito.com/ ComicRack for iOS]
 
 =*CoMet*=
 == Online Resource for CoMet Tags ==
