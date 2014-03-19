@@ -22,6 +22,7 @@ The following are all the details I can find on various open metadata schemes fo
  * [http://comicrack.cyolito.com/ ComicRack for Windows]
  * [http://comicrack.cyolito.com/ ComicRack for Android]
  * [http://comicrack.cyolito.com/ ComicRack for iOS]
+ * [http://www.bitolithic.com/comic-zeal/ ComicZeal (iOS)]
 
 =*CoMet*=
 == Online Resource for CoMet Tags ==
