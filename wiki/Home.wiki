@@ -4,6 +4,7 @@
   * [MetadataSchemes Metadata Schemes]
   * [Screenshots]
   * [ReleaseNotes Release Notes]
+  * [Downloads Downloads]
   * [Installation]  
   * [UserGuide User Guide]  
     * [UserGuide#General_Features General Features]    
