@@ -1,9 +1,9 @@
 = Downloads have moved to Google Drive =
 
 == Release 1.1.11-beta ==
-[https://drive.google.com/file/d/0Bw4IursaqWhhWm90RE1LclZrdms/edit?usp=sharing  Windows Installer]
-[https://drive.google.com/file/d/0Bw4IursaqWhhSVhRbl9iQ0tUTGs/edit?usp=sharing Mac OSX DMG]
-
+ * [https://drive.google.com/file/d/0Bw4IursaqWhhWm90RE1LclZrdms/edit?usp=sharing  Windows Installer]
+ * [https://drive.google.com/file/d/0Bw4IursaqWhhSVhRbl9iQ0tUTGs/edit?usp=sharing Mac OSX DMG]
+ * [https://drive.google.com/file/d/0Bw4IursaqWhhTjZ6UDB1aEx1am8/edit?usp=sharing Python Package Zip]
 = Find older (pre March 2014 downloads) here: =
 
 [https://code.google.com/p/comictagger/downloads/list old downloads]
