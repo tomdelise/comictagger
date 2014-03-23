@@ -1,4 +1,4 @@
-= Downloads have moved to Google Drive =
+= Downloads have moved to [https://drive.google.com/?urp=https://drive.google.com/&authuser=0#folders/0Bw4IursaqWhhOHF6Wk9ab3FkejQ Google Drive] =
 
 == Release 1.1.11-beta ==
  * [https://drive.google.com/uc?export=download&id=0Bw4IursaqWhhWm90RE1LclZrdms  Windows Installer]
