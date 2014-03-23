@@ -1,3 +1,4 @@
+#labels Featured
 = Downloads have moved to [https://drive.google.com/?urp=https://drive.google.com/&authuser=0#folders/0Bw4IursaqWhhOHF6Wk9ab3FkejQ Google Drive] =
 Unfortunately, Google Code no longer provides hosting of new download files.  Use the links below to get the latest versions of ComicTagger. 
 ==Release 1.1.11-beta (23-March-2014)==
