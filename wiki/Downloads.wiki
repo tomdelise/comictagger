@@ -1,6 +1,12 @@
 #labels Featured
 = Downloads have moved to [https://drive.google.com/?urp=https://drive.google.com/&authuser=0#folders/0Bw4IursaqWhhOHF6Wk9ab3FkejQ Google Drive] =
 Unfortunately, Google Code no longer provides hosting of new download files.  Use the links below to get the latest versions of ComicTagger. 
+
+==Release 1.1.12-beta (23-Mar-2014)==
+ * [https://drive.google.com/uc?export=download&id=0BxK6P1zbz_SSMzNzQW5DcF9yWGs  Windows Installer]
+ * [https://drive.google.com/uc?export=download&id=0BxK6P1zbz_SScG5fWGFHTFFTeVE Mac OSX DMG]
+ * [https://drive.google.com/uc?export=download&id=0BxK6P1zbz_SSSTF3Z3NNTGEtVU0 Python Package Zip]
+
 ==Release 1.1.11-beta (23-Mar-2014)==
  * [https://drive.google.com/uc?export=download&id=0Bw4IursaqWhhWm90RE1LclZrdms  Windows Installer]
  * [https://drive.google.com/uc?export=download&id=0Bw4IursaqWhhSVhRbl9iQ0tUTGs Mac OSX DMG]
