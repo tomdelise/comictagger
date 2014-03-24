@@ -3,9 +3,9 @@
 Unfortunately, Google Code no longer provides hosting of new download files.  Use the links below to get the latest versions of ComicTagger. 
 
 ==Release 1.1.12-beta (23-Mar-2014)==
- * [https://drive.google.com/uc?export=download&id=0BxK6P1zbz_SSMzNzQW5DcF9yWGs  Windows Installer]
- * [https://drive.google.com/uc?export=download&id=0BxK6P1zbz_SScG5fWGFHTFFTeVE Mac OSX DMG]
- * [https://drive.google.com/uc?export=download&id=0BxK6P1zbz_SSSTF3Z3NNTGEtVU0 Python Package Zip]
+ * [https://googledrive.com/host/0Bw4IursaqWhhOHF6Wk9ab3FkejQ/1.1.12-beta/ComicTagger%20v1.1.12-beta.exe  Windows Installer]
+ * [https://googledrive.com/host/0Bw4IursaqWhhOHF6Wk9ab3FkejQ/1.1.12-beta/ComicTagger-1.1.12-beta.dmg Mac OSX DMG]
+ * [https://googledrive.com/host/0Bw4IursaqWhhOHF6Wk9ab3FkejQ/1.1.12-beta/comictagger-1.1.12-beta.zip Python Package Zip]
 
 ==Release 1.1.11-beta (23-Mar-2014)==
  * [https://drive.google.com/uc?export=download&id=0Bw4IursaqWhhWm90RE1LclZrdms  Windows Installer]
