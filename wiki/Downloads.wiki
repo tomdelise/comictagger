@@ -8,9 +8,9 @@ Unfortunately, Google Code no longer provides hosting of new download files.  Us
  * [https://googledrive.com/host/0Bw4IursaqWhhOHF6Wk9ab3FkejQ/1.1.12-beta/comictagger-1.1.12-beta.zip Python Package Zip]
 
 ==Release 1.1.11-beta (23-Mar-2014)==
- * [https://drive.google.com/uc?export=download&id=0Bw4IursaqWhhWm90RE1LclZrdms  Windows Installer]
- * [https://drive.google.com/uc?export=download&id=0Bw4IursaqWhhSVhRbl9iQ0tUTGs Mac OSX DMG]
- * [https://drive.google.com/uc?export=download&id=0Bw4IursaqWhhTjZ6UDB1aEx1am8 Python Package Zip]
+ * [https://googledrive.com/host/0Bw4IursaqWhhOHF6Wk9ab3FkejQ/1.1.11-beta/ComicTagger%20v1.1.11-beta.exe  Windows Installer]
+ * [https://googledrive.com/host/0Bw4IursaqWhhOHF6Wk9ab3FkejQ/1.1.11-beta/ComicTagger-1.1.11-beta.dmg Mac OSX DMG]
+ * [https://googledrive.com/host/0Bw4IursaqWhhOHF6Wk9ab3FkejQ/1.1.11-beta/comictagger-1.1.11-beta.zip Python Package Zip]
 
 
 == Find older downloads [https://code.google.com/p/comictagger/downloads/list here] ==
