@@ -30,7 +30,7 @@ If you are downloading manually, extract the source zip file.  Run the file call
 On certain systems, you have the option to use "pip" (or "easy_install") to install ComicTagger:
 
 {{{
-pip install comictagger
+pip install -U comictagger
 }}}
 
 
