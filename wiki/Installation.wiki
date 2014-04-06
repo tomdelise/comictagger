@@ -79,4 +79,13 @@ sudo apt-get install python-qt4 python-imaging python-bs4
 sudo pip install configparser
 }}}
 
+and, then, as mentioned above, use pip to install ComicTagger:
+{{{
+sudo pip install -U comictagger
+}}}
+
+Note:  you may need to use "--pre" for newer versions of pip, as it doesn't trust packages with the "beta" tag by default:
+{{{
+sudo pip install -U --pre comictagger
+}}}
 Other systems might use yum.  _Please share if you have a installation process not detailed here._
