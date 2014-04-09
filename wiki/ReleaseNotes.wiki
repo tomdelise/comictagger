@@ -5,7 +5,7 @@
  * Python package should auto-install requirements
  * Specify default GUI tag style on command-line
  * enforce single GUI instance
- * new CBL tranform to copy story arcs to generic tags
+ * new CBL transform to copy story arcs to generic tags
  * Persist some auto-tag settings
 
 ===1.1.12-beta===
