@@ -19,10 +19,10 @@ The following are all the details I can find on various open metadata schemes fo
  * [http://comicrack.cyolito.com/downloads/ComicRack/Support-Files/ComicInfoSchema.zip/ CR Tag Schema Download]
 
 == Comic Readers that use CR Tags ==
- * [http://comicrack.cyolito.com/ ComicRack for Windows]
- * [http://comicrack.cyolito.com/ ComicRack for Android]
- * [http://comicrack.cyolito.com/ ComicRack for iOS]
+ * [http://comicrack.cyolito.com/ ComicRack for (Windows/Android/iOS)]
  * [http://www.bitolithic.com/comic-zeal/ ComicZeal (iOS)] (For series sorting only)
+ * [http://www.xylasoft.com/comicseer/ ComicSeer  (Windows and Linux)]
+ * [http://chunkyreader.com/ Chunky Comic Reader  (iOS)]
 
 =*CoMet*=
 == Online Resource for CoMet Tags ==
