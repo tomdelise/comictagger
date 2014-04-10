@@ -9,9 +9,9 @@ The following are all the details I can find on various open metadata schemes fo
  * [http://code.google.com/p/comicbookinfo/ CBI Google Code Site]
 
 == Comic Readers that use CBI Tags ==
- * [http://www.bitcartel.com/comicbooklover/ ComicBookLover for iOS]
- * [http://www.bitcartel.com/comicbooklover/ ComicBookLover for OSX]
- * [http://calibre-ebook.com/ Cailbre] (E-book reader)
+ * [http://www.bitcartel.com/comicbooklover/ ComicBookLover (OSX/iOS)]
+ * [http://calibre-ebook.com/ Cailbre] (E-book reader, OSX/Windows/Linux)
+ * [http://chunkyreader.com/ Chunky Comic Reader  (iOS)]
 
 =*ComicRack*=
 == Online Resource for ComicRack Tags ==
@@ -19,10 +19,12 @@ The following are all the details I can find on various open metadata schemes fo
  * [http://comicrack.cyolito.com/downloads/ComicRack/Support-Files/ComicInfoSchema.zip/ CR Tag Schema Download]
 
 == Comic Readers that use CR Tags ==
- * [http://comicrack.cyolito.com/ ComicRack for (Windows/Android/iOS)]
+ * [http://comicrack.cyolito.com/ ComicRack (Windows/Android/iOS)]
+ * [http://www.bitcartel.com/comicbooklover/ ComicBookLover (OSX/iOS)]
  * [http://www.bitolithic.com/comic-zeal/ ComicZeal (iOS)] (For series sorting only)
  * [http://www.xylasoft.com/comicseer/ ComicSeer  (Windows and Linux)]
  * [http://chunkyreader.com/ Chunky Comic Reader  (iOS)]
+ * [http://calibre-ebook.com/ Cailbre] (E-book reader, OSX/Windows/Linux)
 
 =*CoMet*=
 == Online Resource for CoMet Tags ==
