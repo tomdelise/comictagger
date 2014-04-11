@@ -8,9 +8,12 @@
 When an archive is opened, and it has no tags, ComicTagger will attempt to parse the filename to glean some information.  Generally, it expects a format similar to this:
 
 {{{
-SERIES_NAME vVOLNUM ISSUENUM (of COUNT) (YEAR).ext
+SERIES_NAME vVOLNUM ISSUENUM (of COUNT) (PUBYEAR).ext
 }}}
-
+or
+{{{
+SERIES_NAME (SERIESYEAR) ISSUENUM (of COUNT) (PUBYEAR).ext
+}}}
 i.e.
 
 {{{
@@ -18,9 +21,10 @@ Plastic Man v1 002 (1942).cbz
 Blue Beetle 02.cbr
 Monster Island vol. 2 #2.cbz
 Crazy Weird Comics 2 (of 2) (1969).rar
+Super Strange Yarns (1957) #92 (1969).cbz
 }}}
 
-(In this scheme, the YEAR refers to publication year of the issue.)
+(In this scheme, the PUBYEAR refers to publication year of the issue, and SERIESYEAR as the start year of the volume/series)
 
 Some other notes:
 
@@ -56,7 +60,12 @@ Foobar-Man Annual 121 - The Wrath of Foobar-Man, Part 1 of 2.cbz
  }}}
  Any text that is not explicty parsed as series name, volume, issue number, or publication year, or issue count will be saved in the "scan info" field, if enabled.
 
+* There should only be either a volume number or series year in the file name.
+
 The cleaner the original filename is, the better ComicTagger is at matching online.
+
+
+The filename parsing 
 
 ===Automatic Identification and Tagging===
 
