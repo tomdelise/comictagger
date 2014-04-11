@@ -59,14 +59,20 @@ Foobar-Man Annual 121 - The Wrath of Foobar-Man, Part 1 of 2.cbz
  Monster_Island_v1_2__repaired__c2c.cbz
  Monster Island v1 3 (1957) -- The Revenge Of King Klong (noads).cbz
  }}}
- Any text that is not explicty parsed as series name, volume, issue number, or publication year, or issue count will be saved in the "scan info" field, if enabled.
+ Any text that is not explicitly parsed as series name, volume, issue number, or publication year, or issue count will be saved in the "scan info" field, if enabled.
 
  * There should only be either a volume number or series year in the file name, since these are interpreted by the parser as the same thing.  Whether to use start year or sequential volume numbers seems a matter of personal preference, but as even the publishers' use of sequential volume numbers is inconsistent, the start year is more unambiguous.
+ The following examples show variations on use of the series year.  Any text in the parentheses after the "-" will be ignored by the parse:
+ {{{
+ Dusk Vampire (2010) #1.cbz
+ Dusk Vampire (2010-) #1.cbz
+ Dusk Vampire (2010-2012) #1.cbz
+ }}}
+
 
 The cleaner the original filename is, the better ComicTagger is at matching online.
 
 
-The filename parsing 
 
 ===Automatic Identification and Tagging===
 
