@@ -72,7 +72,10 @@ Foobar-Man Annual 121 - The Wrath of Foobar-Man, Part 1 of 2.cbz
 
 The cleaner the original filename is, the better ComicTagger is at matching online.
 
+===Comic Vine===
+The online database at Comic Vine (http://comicvine.com) provides a public interface that ComicTagger uses to acquire most of the tagging info.  Each user of ComicTagger is recommended to create an account at Comic Vine, and get an "API Key" of their own (at http://comicvine.com/api). The personal key can be added to ComicTagger settings through either the settings dialog, or via the command-line interface. 
 
+Though not strictly necessary, if a personal key is not configured, ComicTagger may often fail by using the default application key.  This is because Comic Vine implements a per-key limit on API access rates.  Since the default application key is shared, it may already be exhausted by other users.  At the time of writing, the rate limit is said to be 200 accesses per 15 minutes.  Fetching the data to tag a comic can typically involve 2-6 accesses (but can be higher).
 
 ===Automatic Identification and Tagging===
 
