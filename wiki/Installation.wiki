@@ -97,6 +97,6 @@ ComicTagger now uses Pillow ( a PIL/Python Imaging fork) for WebP support.
 For it to work properly, when running from source, you will have to have some dependencies install first.  For example, on Ubuntu:
 {{{
 sudo pip uninstall pillow 
-sudo apt-get install libtiff4-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms1-dev libwebp-dev
+sudo apt-get install python-dev libtiff4-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms1-dev libwebp-dev
 sudo pip install pillow 
 }}}
