@@ -88,6 +88,12 @@ Note:  you may need to use "--pre" for newer versions of pip, as it doesn't trus
 {{{
 sudo pip install -U --pre comictagger
 }}}
+
+Another note(!):  Event more recent versions of pip require more options:
+{{{
+sudo pip install -pre --allow-external comictagger --allow-unverified comictagger comictagger
+}}}
+
 Other systems might use yum.  _Please share if you have a installation process not detailed here._
 
 == WebP Issues ==
