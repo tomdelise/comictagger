@@ -19,7 +19,7 @@ To run ComicTagger from the python source, you may need to install some pre-requ
 
   * Python 2.6 or 2.7
   * PyQt matching the Python version -- _(Only needed for GUI)_
-  * PIL, the Python Imaging Library -- _(Only need for automated matching)_
+  * Pillow, a fork of the Python Imaging Library -- _(Only need for automated matching)_
   * Beautiful Soup 4
   * configparser
 
@@ -89,3 +89,14 @@ Note:  you may need to use "--pre" for newer versions of pip, as it doesn't trus
 sudo pip install -U --pre comictagger
 }}}
 Other systems might use yum.  _Please share if you have a installation process not detailed here._
+
+== WebP Issues ==
+
+ComicTagger now uses Pillow ( a PIL/Python Imaging fork) for WebP support.  
+
+For it to work properly, when running from source, you will have to have some dependencies install first.  For example, on Ubuntu:
+{{{
+sudo pip uninstall pillow 
+sudo apt-get install libtiff4-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms1-dev libwebp-dev
+sudo pip install pillow 
+}}}
